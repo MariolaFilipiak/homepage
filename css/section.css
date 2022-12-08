@@ -21,6 +21,12 @@
     color: #2a2a2a;
 }
 
+@media (max-width: 767px) {
+    .section__offerTitle {
+        font-size:15px;
+    }
+}
+
 .section__offerText {
     display: flex;
     margin: auto;
@@ -34,6 +40,12 @@
     max-width: 100%;
 }
 
+@media (max-width: 767px) {
+    .section__offerText {
+        font-size: 12px;
+    }
+}
+
 .section__offerText2 {
     max-width: 100%;
     margin: auto;
@@ -45,6 +57,12 @@
     padding: 40px;
     font-family: 'Playfair Display', serif;
     color: #2a2a2a;
+}
+
+@media (max-width: 767px) {
+    .section__offerText2 {
+        font-size: 12px;
+    }
 }
 
 .section__offerPhotoLeft {
@@ -74,6 +92,12 @@
     margin: auto;
 }
 
+@media (max-width: 767px) {
+    .section__form {
+        font-size: 12px;
+    }
+}
+
 .section__formFieldset {
     font-family: 'Playfair Display', serif;
     font-size: 20px;
@@ -85,10 +109,26 @@
     max-width: 100%;
 }
 
+@media (max-width: 767px) {
+    .section__formFieldset {
+        width: 100%;
+        margin:20px;
+        font-size:12px;
+    }
+}
+
 .section__formLegend {
     font-family: 'Playfair Display', serif;
     font-size: 30px;
     color: #2a2a2a;
+}
+
+@media (max-width: 767px) {
+    .section__formLegend {
+        width: 100%;
+        margin:20px;
+        font-size:12px;
+    }
 }
 
 .section__formLabelText {
@@ -101,6 +141,14 @@
     text-align: left;
 }
 
+@media (max-width: 767px) {
+    .section__formLabelText {
+        width: 100%;
+        margin:20px;
+        font-size:12px;
+    }
+}
+
 .section__formTypeOption {
     font-family: 'Playfair Display', serif;
     font-size: 20px;
@@ -108,6 +156,14 @@
     padding: 5px;
     width: 400px;
     display: inline-block;
+}
+
+@media (max-width: 767px) {
+    .section__formTypeOption {
+        width: 100%;
+        margin:20px;
+        font-size:12px;
+    }
 }
 
 .section__formTextarea {
@@ -121,12 +177,27 @@
     display: inline-block;
 }
 
+@media (max-width: 767px) {
+    .section__formTextArea {
+        width: 100%;
+        margin:20px;
+        font-size:12px;
+    }
+}
+
 .section__formButton {
     font-family: 'Playfair Display', serif;
     font-size: 20px;
     color: #2a2a2a;
     width: 300px;
     display: inline-block;
+}
+
+@media (max-width: 767px) {
+    .section__formButton {
+        width: 100%;
+        font-size:12px;
+    }
 }
 
 .section__formInput {

@@ -16,6 +16,13 @@ html {
     background-image: url ("..images/photo7.jpg");
 }
 
+    @media (max-width: 767px) {
+        .body {
+            width: 100%;
+        }
+    }
+    
+
 .footer {
     max-width: 100%;
     margin: 30px;
@@ -34,6 +41,12 @@ html {
     background-color: #1e1e1e;
     color: #ffffff;
   }
+
+  @media (max-width: 767px) {
+    .themeButton {
+        font-size:12px;
+    }
+}
   
   .themeButton:hover {
     background-color: #202020c1;

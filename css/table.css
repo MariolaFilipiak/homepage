@@ -9,6 +9,12 @@
     font-size: 30px;
 }
 
+@media (max-width: 767px) {
+    .tablePriceTitle {
+        font-size:15px;
+    }
+}
+
 .tablePrice__price {
     color: #2b2b2b;
     max-width: 100%;
@@ -18,6 +24,12 @@
     padding: 30px;
 }
 
+@media (max-width: 767px) {
+    .tablePrice__price {
+        font-size:15px;
+    }
+}
+
 .tablePrice__cell {
     color: #2b2b2b;
     width: 850px;
@@ -25,4 +37,10 @@
     caption-side: top;
     font-size: 20px;
     padding: 30px;
+}
+
+@media (max-width: 767px) {
+    .tablePrice__cell {
+        font-size:15px;
+    }
 }

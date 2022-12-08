@@ -13,8 +13,20 @@
     font-family: 'Playfair Display', serif;
 }
 
+@media (max-width: 767px) {
+    .main__paragraph {
+        font-size:12px;
+    }
+}
+
 .main__paragraphTitle{
     font-family: 'Playfair Display', serif;
     font-size: 30px;
     margin:auto
+}
+
+@media (max-width: 767px) {
+    .main__paragraphTitle {
+        font-size:15px;
+    }
 }
