@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+    margin: 20px;
+    max-width: 100%;
+}
+
+.body {
+    height: 100%;
+    width: 100%;
+    margin: 30px;
+    text-align: center;
+    background-image: url ("..images/photo7.jpg");
+}
+
+.footer {
+    max-width: 100%;
+    margin: 30px;
+    text-align: center;
+}
+
+.dark {
+    background-color: #1e1e1e;
+    color:#f4f4f4
+}
+
+.themeButton {
+    border: none;
+    padding: 10px;
+    font-family: 'Playfair Display', serif;
+    background-color: #1e1e1e;
+    color: #ffffff;
+  }
+  
+  .themeButton:hover {
+    background-color: #202020c1;
+  }

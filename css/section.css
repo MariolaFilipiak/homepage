@@ -1,0 +1,152 @@
+.section__gallery {
+    max-width: 30%;
+    max-height: 800px;
+    margin: auto;
+    text-align: center;
+    transition: transform 0.1s;
+    line-height: 1.6;
+    padding: 10px;
+}
+
+.section__gallery:hover {
+    -ms-transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+}
+
+.section__offerTitle {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: #2a2a2a;
+}
+
+.section__offerText {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    align-items: center;
+    font-size: 20px;
+    line-height: 1.6;
+    padding: 40px;
+    font-family: 'Playfair Display', serif;
+    color: #2a2a2a;
+    max-width: 100%;
+}
+
+.section__offerText2 {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-size: 20px;
+    line-height: 1.6;
+    padding: 40px;
+    font-family: 'Playfair Display', serif;
+    color: #2a2a2a;
+}
+
+.section__offerPhotoLeft {
+    display: flex;
+    max-width: 100%;
+    position: relative;
+    margin-right: initial;
+    max-width: 40%;
+    max-height: 40%;
+}
+
+.section__offerPhotoRight {
+    display: flex;
+    max-width: 100%;
+    position: relative;
+    margin-left: inherit;
+    max-width: 40%;
+    max-height: 40%;
+}
+
+.section__form {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #2a2a2a;
+    display: inline-block;
+    max-width: 100%;
+    margin: auto;
+}
+
+.section__formFieldset {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #2a2a2a;
+    padding: 20px;
+    display: inline-block;
+    margin: auto;
+    width: 830px;
+    max-width: 100%;
+}
+
+.section__formLegend {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: #2a2a2a;
+}
+
+.section__formLabelText {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #2a2a2a;
+    padding: 5px;
+    width: 300px;
+    display: inline-block;
+    text-align: left;
+}
+
+.section__formTypeOption {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #2a2a2a;
+    padding: 5px;
+    width: 400px;
+    display: inline-block;
+}
+
+.section__formTextarea {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #2a2a2a;
+    padding: 5px;
+    resize: vertical;
+    min-width: 300px;
+    ;
+    display: inline-block;
+}
+
+.section__formButton {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #2a2a2a;
+    width: 300px;
+    display: inline-block;
+}
+
+.section__formInput {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #2a2a2a;
+    padding: 5px;
+    width: 300px;
+    text-align: center;
+}
+
+.section__formType {
+    width: 300px;
+    text-align: left;
+    text-align: center;
+    color: #2a2a2a;
+}
+
+.section__formDate {
+    width: 300px;
+    text-align: center;
+    color: #2a2a2a;
+}
